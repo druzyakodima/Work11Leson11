@@ -14,7 +14,6 @@ public class TestDriveList {
         System.out.println(list);
         new HashSet<>(list).forEach(s -> System.out.println(s + " - " + Collections.frequency(list, s)));*/
 
-
         TelephoneDirectory telephoneDirectory = new TelephoneDirectory();
 
         telephoneDirectory.add("Поттер", "89103245678");
