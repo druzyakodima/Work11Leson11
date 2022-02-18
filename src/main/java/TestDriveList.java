@@ -10,7 +10,6 @@ public class TestDriveList {
 
         Arrays.stream(words).collect(Collectors.toSet()).forEach(s -> System.out.println(s + " - " + Collections.frequency(List.of(words), s)));
 
-
        /* ArrayList<String> list = new ArrayList<>(Arrays.asList("long", "int", "short", "byte", "int", "byte", "byte", "byte", "int", "int", "byte"));
         System.out.println(list);
         new HashSet<>(list).forEach(s -> System.out.println(s + " - " + Collections.frequency(list, s)));*/
